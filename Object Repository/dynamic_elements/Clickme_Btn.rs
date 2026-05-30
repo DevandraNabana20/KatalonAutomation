@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Clickme_Btn</name>
+   <tag></tag>
+   <elementGuidId>52f1496c-9fe6-46ae-96ea-7081f211af4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='confirmButton']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='confirmButton']</value>
+      <webElementGuid>125fce39-4137-46f9-97a2-49a3db8d4987</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

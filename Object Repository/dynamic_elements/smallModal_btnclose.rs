@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>smallModal_btnclose</name>
+   <tag></tag>
+   <elementGuidId>60296676-ede1-4f9b-832e-9904356526a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='closeSmallModal']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='closeSmallModal']</value>
+      <webElementGuid>c9082146-eb0d-4c4d-9b41-c0c8cba432cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

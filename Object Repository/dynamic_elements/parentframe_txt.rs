@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>parentframe_txt</name>
+   <tag></tag>
+   <elementGuidId>20bd46ff-a5ff-446b-880d-695f7f42e92d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe[@id='frame1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//iframe[@id='frame1']</value>
+      <webElementGuid>b9d7f9fd-fcdb-4920-9bc1-7775418e9d19</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

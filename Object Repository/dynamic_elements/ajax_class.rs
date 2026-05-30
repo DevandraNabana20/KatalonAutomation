@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ajax_class</name>
+   <tag></tag>
+   <elementGuidId>bc2fac9a-e057-45f6-bdce-cc08d209409a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@class='bg-success']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@class='bg-success']</value>
+      <webElementGuid>c2bdb109-e406-46e2-a786-3f33567a2e7f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

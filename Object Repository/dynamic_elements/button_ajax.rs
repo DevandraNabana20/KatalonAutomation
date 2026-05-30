@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ajax</name>
+   <tag></tag>
+   <elementGuidId>a92c7705-3a4f-465a-8a65-8b6afc0e38fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='ajaxButton']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='ajaxButton']</value>
+      <webElementGuid>fd48b46e-529d-4335-b292-9fee86392b45</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>parameter</name>
+   <tag></tag>
+   <elementGuidId>294fa4a3-8f71-4448-b51f-b0e10c5fcc0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='row'][{$index}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='row'][{$index}]</value>
+      <webElementGuid>85d95b87-0405-473f-883f-40e450d346cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
