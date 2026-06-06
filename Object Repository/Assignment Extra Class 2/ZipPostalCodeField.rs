@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ZipPostalCodeField</name>
+   <tag></tag>
+   <elementGuidId>ebbaa4bb-a8f8-4815-9729-bc9e88194868</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='postal-code']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='postal-code']</value>
+      <webElementGuid>3694a0e7-3ebd-482d-ad9f-b05ef08186e3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

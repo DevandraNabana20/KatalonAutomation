@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ShirtRemoveBtn</name>
+   <tag></tag>
+   <elementGuidId>8c145d42-6fd6-4294-84b1-969ce78c1386</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='remove-sauce-labs-bolt-t-shirt']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='remove-sauce-labs-bolt-t-shirt']</value>
+      <webElementGuid>c0ee8bd2-35db-41c3-8b02-44351c83f76a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

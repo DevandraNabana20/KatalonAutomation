@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SortingLowToHighOption</name>
+   <tag></tag>
+   <elementGuidId>1048feaf-5248-4f3d-bcdc-4c473b14790b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;header_container&quot;]/div[2]/div/span/select/option[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;header_container&quot;]/div[2]/div/span/select/option[3]</value>
+      <webElementGuid>3fac6be0-764d-4ab1-ba12-c572b6f2eca2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

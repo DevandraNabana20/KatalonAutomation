@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CartBtn</name>
+   <tag></tag>
+   <elementGuidId>c8abb9bd-c440-4576-8456-f7f7a7516ff9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class='shopping_cart_link']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@class='shopping_cart_link']</value>
+      <webElementGuid>79cdb368-6a56-40f6-bd24-3f1cecfe4809</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

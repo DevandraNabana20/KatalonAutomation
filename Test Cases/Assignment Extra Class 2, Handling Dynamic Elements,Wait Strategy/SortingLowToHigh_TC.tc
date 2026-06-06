@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SortingLowToHigh_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79e1767f-4120-4fee-b43e-f38a037b71e7</testCaseGuid>
+</TestCaseEntity>

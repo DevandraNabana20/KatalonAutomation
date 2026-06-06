@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SortingDropdown</name>
+   <tag></tag>
+   <elementGuidId>7c907988-c836-4c9e-b329-ed1ba5c8104f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;header_container&quot;]/div[2]/div/span/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;header_container&quot;]/div[2]/div/span/select</value>
+      <webElementGuid>31d6a095-b27f-4248-941c-e86a7ca5e9f8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

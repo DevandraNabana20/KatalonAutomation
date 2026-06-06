@@ -1,0 +1,56 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+
+WebUI.openBrowser('https://www.saucedemo.com/')
+
+WebUI.verifyElementPresent(findTestObject('Assignment Extra Class 2/UsernameField'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Assignment Extra Class 2/PasswordField'), 0)
+
+WebUI.setText(findTestObject('Assignment Extra Class 2/UsernameField'), 'standard_user')
+
+WebUI.setText(findTestObject('Assignment Extra Class 2/PasswordField'), 'secret_sauce')
+
+WebUI.click(findTestObject('Assignment Extra Class 2/LoginBtn'))
+
+WebUI.verifyElementPresent(findTestObject('Assignment Extra Class 2/ProductsText'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Assignment Extra Class 2/SortingDropdown'), 0)
+
+WebUI.click(findTestObject('Assignment Extra Class 2/SortingDropdown'))
+
+WebUI.verifyElementPresent(findTestObject('Assignment Extra Class 2/SortingLowToHighOption'), 0)
+
+WebUI.selectOptionByValue(findTestObject('Assignment Extra Class 2/SortingDropdown'), 'lohi', false)
+
+// Ambil semua elemen harga produk dari halaman web
+List<WebElement> elements = WebUI.findWebElements(findTestObject('Assignment Extra Class 2/ProductPrices'), 5)
+
+// Ambil teks harganya, hapus tanda $, lalu ubah ke angka desimal (Float)
+List<Float> actualPrices = elements.collect { Float.parseFloat(it.getText().replace('$', '')) }
+
+// Duplikat list harga untuk membuat ekspektasi urutan yang benar
+List<Float> expectedPrices = new ArrayList<>(actualPrices)
+Collections.sort(expectedPrices) 
+
+// Assertion untuk memastikan harga di web sudah berurutan dari kecil ke besar
+WebUI.verifyEqual(actualPrices, expectedPrices)
+
+WebUI.closeBrowser()
